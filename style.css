@@ -25,7 +25,12 @@ ul {
     padding-left: 12px;
     color: #fff;
     overflow: auto;
+    overflow:auto;
+    overflow-x: hidden;
+    word-wrap: break-word;
 }
+
+
 
 input:focus {
     outline: none;
